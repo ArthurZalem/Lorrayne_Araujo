@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: 'Cormorant Garamond', serif;
+}
+
+/* Paleta de cores do design */
+.bg-brand-beige {
+    background-color: #d4b2a7;
+}
+
+
+.text-brand-beige {
+    color: #d4b2a7;
+}
+
+.border-brand-beige {
+    border-color: #d4b2a7;
+}
+
+.bg-brand-dark {
+    background-color: #1a1a1a;
+}
+
+/* Efeito de transição suave */
+.smooth-transition {
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para animação de scroll */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s, transform 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilo do menu mobile */
+#mobile-menu {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+#mobile-menu.open {
+    transform: translateY(0);
+}
+
+.relative.block {
+    height: auto;
+}
